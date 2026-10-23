@@ -1,5 +1,10 @@
 .numberCount {
   text-align: center;
   display: column;
-  font-size: 50px;
+  font-size: 20px;
+}
+
+.btnC {
+  display: flex;
+  
 }
