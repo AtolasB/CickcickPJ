@@ -7,7 +7,6 @@
 .btnC {
   display: block;
   text-align: center;
-  border-radius: 1px;
-  cursor: pointer;
+  border-radius: 100px;
   
 }
