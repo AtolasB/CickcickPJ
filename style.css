@@ -5,7 +5,7 @@
 }
 
 .btnC {
-  display: block;
+  max-width: 0 auto;
   text-align: center;
   border-radius: 100px;
   
