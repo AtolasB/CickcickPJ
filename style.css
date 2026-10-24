@@ -5,5 +5,10 @@
 }
 
 .btnC {
+  display: block;
   align-items: center;
+  border-radius: 10px;
+  box-shadow: 10px;
+  cursor: pointer;
+  
 }
