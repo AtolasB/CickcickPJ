@@ -6,9 +6,7 @@
 }
 
 .btnC {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
   padding: 20px;
   border-radius: 10px;
 
