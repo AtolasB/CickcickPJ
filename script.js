@@ -10,10 +10,11 @@ btnC.addEventListener("click", function() {
   btnC.style.display = "none";
   alert(btnC.offsetWidth);          // หลังซ่อน
 
-  setTimeout(function() {
-    const maxX = window.innerWidth - btnC.offsetWidth;
-    const maxY = window.innerHeight - btnC.offsetHeight;
+  const maxX = window.innerWidth - btnC.offsetWidth;
+  const maxY = window.innerHeight - btnC.offsetHeight;
 
+  
+  setTimeout(function() {
     const x = Math.random() * maxX;
     const y = Math.random() * maxY;
 
