@@ -1,14 +1,15 @@
 .numberCount {
-  text-align: center;
-  display: column;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   font-size: 20px;
 }
 
 .btnC {
-  max-width: 200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-  display: block;
   border-radius: 10px;
 
   position: absolute;
