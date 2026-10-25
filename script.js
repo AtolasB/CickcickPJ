@@ -5,8 +5,10 @@ const displayNum = document.getElementById("number");
 btnC.addEventListener("click", function() {
   count = count + 1;
   displayNum.textContent = count;
-
-  btnC.style.display = "none"
+ 
+  alert(btnC.offsetWidth);          // ก่อนซ่อน
+  btnC.style.display = "none";
+  alert(btnC.offsetWidth);          // หลังซ่อน
 
   setTimeout(function() {
     const maxX = window.innerWidth - btnC.offsetWidth;
