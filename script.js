@@ -12,6 +12,6 @@ btnC.addEventListener("click", function() {
   const x = Math.random() * maxX;
   const y = Math.random() * maxY;
 
-  btnC.style.left = x + "px"
-  btnC.style.top = y + "px"
+  btnC.style.left = x + "px";
+  btnC.style.top = y + "px";
 });
