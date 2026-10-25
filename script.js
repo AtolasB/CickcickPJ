@@ -14,6 +14,4 @@ btnC.addEventListener("click", function() {
 
   btnC.style.left = x + "px"
   btnC.style.left = y + "px"
-
-  alert(maxX + " , " + maxY);
 });
