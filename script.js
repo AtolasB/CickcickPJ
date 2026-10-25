@@ -6,12 +6,16 @@ btnC.addEventListener("click", function() {
   count = count + 1;
   displayNum.textContent = count;
 
-  const maxX = window.innerWidth - btnC.offsetWidth;
-  const maxY = window.innerHeight - btnC.offsetHeight;
+  btnC.style.display = "none"
 
-  const x = Math.random() * maxX;
-  const y = Math.random() * maxY;
+  setTimeout(function() {
+    const maxX = window.innerWidth - btnC.offsetWidth;
+    const maxY = window.innerHeight - btnC.offsetHeight;
 
-  btnC.style.left = x + "px";
-  btnC.style.top = y + "px";
+    const x = Math.random() * maxX;
+    const y = Math.random() * maxY;
+
+    btnC.style.left = x + "px";
+    btnC.style.top = y + "px";
+  }, 2000);
 });
