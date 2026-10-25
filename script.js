@@ -17,5 +17,6 @@ btnC.addEventListener("click", function() {
 
     btnC.style.left = x + "px";
     btnC.style.top = y + "px";
+    btnC.style.display = "block"
   }, 2000);
 });
