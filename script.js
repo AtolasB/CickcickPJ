@@ -13,5 +13,5 @@ btnC.addEventListener("click", function() {
   const y = Math.random() * maxY;
 
   btnC.style.left = x + "px"
-  btnC.style.left = y
+  btnC.style.top = y + "px"
 });
