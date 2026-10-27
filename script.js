@@ -7,7 +7,7 @@ function moveButton() {
   const maxX = window.innerWidth - btnC.offsetWidth;
   const maxY = window.innerHeight - btnC.offsetHeight;
   const x = Math.random() * maxX;
-  const y = minY + Math.random() * (max - minY);
+  const y = minY + Math.random() * (maxY - minY);
   
 
   btnC.style.left = x + "px";
