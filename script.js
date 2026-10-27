@@ -22,5 +22,5 @@ btnC.addEventListener("click", function() {
     moveButton();
     btnC.style.display = "block"
     
-  }, 1000);
+  }, 500);
 });
