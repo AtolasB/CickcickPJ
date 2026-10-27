@@ -1,15 +1,14 @@
 let count = 0;
 const btnC = document.getElementById("btnClick");
 const displayNum = document.getElementById("number");
-const minY = displayNum.getBoundingClientRect().top;
 
 function moveButton() {
+  const minY = displayNum.getBoundingClientRect().top;
   const maxX = window.innerWidth - btnC.offsetWidth;
   const maxY = window.innerHeight - btnC.offsetHeight;
   const x = Math.random() * maxX;
-  alert("ก่อน");
   const y = min + Math.random() * (max - min);
-  alert("หลัง")
+  
 
   btnC.style.left = x + "px";
   btnC.style.top = y + "px";
@@ -22,7 +21,7 @@ btnC.addEventListener("click", function() {
   btnC.style.display = "none";
 
   setTimeout(function() {
-    btnC.style.display = "block"
+    btnC.style.display = "block";
     moveButton();
   }, 500);
 });
