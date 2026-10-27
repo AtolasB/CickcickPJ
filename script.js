@@ -1,9 +1,10 @@
 let count = 0;
 const btnC = document.getElementById("btnClick");
 const displayNum = document.getElementById("number");
-const displayLaoding =document.getElementById("laodingWeb");
 
 document.addEventListener('DOMContentLoaded', () => {
+  const displayLaoding =document.getElementById("laodingWeb");
+  
   displayLaoding.style.display = "block"
   
 });
