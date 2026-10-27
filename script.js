@@ -19,8 +19,7 @@ btnC.addEventListener("click", function() {
   btnC.style.display = "none";
 
   setTimeout(function() {
-    moveButton();
     btnC.style.display = "block"
-    
+    moveButton();
   }, 500);
 });
