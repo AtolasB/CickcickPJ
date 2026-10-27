@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 setTimeout(() => {
   displayLaoding.style.display = "none"
-}, 1000);
+}, 2000);
   
 });
 
