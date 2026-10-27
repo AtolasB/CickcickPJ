@@ -1,8 +1,14 @@
 let count = 0;
 const btnC = document.getElementById("btnClick");
 const displayNum = document.getElementById("number");
+const displayLaoding =document.getElementById("laodingWeb");
 
-moveButton()
+document.addEventListener('DOMContentLoaded', () => {
+  displayLaoding.style.display = "block"
+  
+});
+
+moveButton();
 
 function moveButton() {
   const minY = displayNum.getBoundingClientRect().bottom;
@@ -26,3 +32,4 @@ btnC.addEventListener("click", function() {
     moveButton();
   }, 500);
 });
+
