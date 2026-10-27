@@ -6,10 +6,12 @@ btnC.addEventListener("click", function() {
   count = count + 1;
   displayNum.textContent = count;
 
-  const maxX = window.innerWidth - btnC.offsetWidth;
-  const maxY = window.innerHeight - btnC.offsetHeight;
-  const x = Math.random() * maxX;
-  const y = Math.random() * maxY;
+  function moveButton() {
+    const maxX = window.innerWidth - btnC.offsetWidth;
+    const maxY = window.innerHeight - btnC.offsetHeight;
+    const x = Math.random() * maxX;
+    const y = Math.random() * maxY;
+  };
  
   btnC.style.display = "none";
 
