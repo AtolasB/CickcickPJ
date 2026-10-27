@@ -9,6 +9,7 @@ function moveButton() {
   const x = Math.random() * maxX;
   const y = minY + Math.random() * (maxY - minY);
 
+  alert(minY + " , " + y)
   btnC.style.left = x + "px";
   btnC.style.top = y + "px";
 };
