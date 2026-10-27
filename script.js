@@ -2,14 +2,15 @@ let count = 0;
 const btnC = document.getElementById("btnClick");
 const displayNum = document.getElementById("number");
 
+moveButton()
+
 function moveButton() {
   const minY = displayNum.getBoundingClientRect().bottom;
   const maxX = window.innerWidth - btnC.offsetWidth;
   const maxY = window.innerHeight - btnC.offsetHeight;
   const x = Math.random() * maxX;
   const y = minY + Math.random() * (maxY - minY);
-
-  alert(minY + " , " + y)
+  
   btnC.style.left = x + "px";
   btnC.style.top = y + "px";
 };
