@@ -1,6 +1,7 @@
 let count = 0;
 const btnC = document.getElementById("btnClick");
 const displayNum = document.getElementById("number");
+const minY = displayNum.getBoundingClientRect().top;
 
 function moveButton() {
   const maxX = window.innerWidth - btnC.offsetWidth;
