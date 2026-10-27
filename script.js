@@ -5,7 +5,9 @@ const displayNum = document.getElementById("number");
 document.addEventListener('DOMContentLoaded', () => {
   const displayLaoding =document.getElementById("laodingWeb");
   
+setTimeout(() => {
   displayLaoding.style.display = "none"
+}, 1000);
   
 });
 
