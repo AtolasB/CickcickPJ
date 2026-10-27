@@ -11,13 +11,16 @@ btnC.addEventListener("click", function() {
     const maxY = window.innerHeight - btnC.offsetHeight;
     const x = Math.random() * maxX;
     const y = Math.random() * maxY;
+
+    btnC.style.left = x + "px";
+    btnC.style.top = y + "px";
   };
  
   btnC.style.display = "none";
 
   setTimeout(function() {
-    btnC.style.left = x + "px";
-    btnC.style.top = y + "px";
+    moveButton();
     btnC.style.display = "block"
+    
   }, 1000);
 });
