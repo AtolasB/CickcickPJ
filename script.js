@@ -5,7 +5,7 @@ const displayNum = document.getElementById("number");
 document.addEventListener('DOMContentLoaded', () => {
   const displayLaoding =document.getElementById("laodingWeb");
 
-  
+  displayLaoding.classList.add("laodingFadeOut");
   
   setTimeout(() => {
     displayLaoding.style.display = "none"
